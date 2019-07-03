@@ -277,7 +277,7 @@ for locus in open(peakFile):
             p = robjects.r("P(z)")
             exp = p[-1]-p[0]
             
-            expected = exp*len(plus)
+            expected = exp*len(minus)
 #           print "Expected:",str(exp),str(expected)
 
 #            print observed, expected
